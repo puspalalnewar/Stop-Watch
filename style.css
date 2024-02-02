@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(122, 105, 137);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.main{
+    height: 7rem;
+    width: 18rem;
+}
+.box1{
+    display: flex;
+    background-color: black;
+    color: white;
+    font-size: 3rem;
+    justify-content: center;
+    gap: 0.5rem;
+    border-radius: 0.5rem;
+    padding: 1rem;
+}
+.box2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+}
+.btn{
+    height: 3rem;
+    width: 5rem;
+    background: #06ad06;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    border-radius: 2rem;
+}
+.btn1{
+    background-color: rgb(209 26 26);
+}
+.btn2{
+    background-color: rgb(14 171 14);
+}
+.btn3{
+    background-color: rgb(5, 13, 124);
+}
